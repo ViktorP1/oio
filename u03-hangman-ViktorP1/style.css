@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#play-btn {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.new-game {
+  text-align: center;
+  margin: auto;
+}
+
+.selected-word {
+  font-size: 2.5em;
+  letter-spacing: 0.5em;
+  margin: 0 auto;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .characters {
+    width: 50%;
+  }
+}
+
+p {
+  margin: 1em;
+  font-weight: 1em;
+}
+
+#play-btn {
+  padding: 2em;
+  margin: 1em;
+}
+
+#play-again-btn {
+  padding: 2em;
+  margin: 1em;
+}
+
+#life {
+  text-align: center;
+}
+
+#life-count {
+  color: red;
+  font-size: 3em;
+}
+
+.letters {
+  width: 4em;
+  margin: 1em;
+  padding: 1em;
+}
+
+.selected-container {
+  display: flex;
+}
